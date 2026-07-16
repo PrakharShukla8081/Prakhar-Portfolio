@@ -35,7 +35,7 @@ export default function Hero() {
         aria-hidden
       />
 
-      <motion.div style={{ opacity }} className="relative mx-auto grid max-w-6xl grid-cols-1 gap-14 px-6 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+      <motion.div style={{ opacity }} className="relative mx-auto grid max-w-6xl grid-cols-1 gap-14 px-6 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
         <div>
           <motion.div variants={fadeUp} initial="hidden" animate="show" className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-3 py-1 font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground backdrop-blur">
             <span className="relative flex size-2">
@@ -107,7 +107,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.4, ease: [0.2, 0.7, 0.2, 1] }}
-          className="relative mx-auto w-full max-w-md"
+          className="relative mx-auto w-full max-w-md lg:mt-12"
         >
           <div className="absolute -inset-6 rounded-3xl bg-accent/10 blur-3xl" aria-hidden />
           <div className="relative overflow-hidden rounded-2xl border border-border bg-surface/70 shadow-[0_30px_80px_-30px_rgba(0,0,0,0.7)] backdrop-blur">

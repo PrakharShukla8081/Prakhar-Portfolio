@@ -7,18 +7,20 @@ export const NAV = [
 ]
 
 export const STATS = [
-  { n: '14+', l: 'API modules shipped' },
-  { n: '100k+', l: 'Rows processed' },
+  { n: '5+', l: 'Projects completed' },
   { n: '2+', l: 'Years experience' },
-  { n: '500+', l: 'DSA problems solved' },
+  { n: '250+', l: 'DSA problems solved' },
+  { n: '10+', l: 'Technologies' },
 ]
+
+
 
 export const EXPERIENCE = [
   {
-    period: 'Jan 2025 — Present',
-    role: 'Backend Developer Intern',
+    period: 'Jan 2026 — Present',
+    role: 'Backend Developer',
     company: 'Beno Support Technologies Pvt. Ltd.',
-    type: 'Remote',
+    type: 'On-site',
     caseStudy: [
       { label: 'Problem', text: 'Bulk imports of 100k+ prospect rows were failing silently — bad rows got dropped with no diagnostics.' },
       { label: 'Approach', text: 'Rebuilt the Excel/CSV import pipeline with field-level validation and multi-field deduplication (email, phone, name + account) before insert.' },
@@ -27,7 +29,18 @@ export const EXPERIENCE = [
     stack: ['Node.js', 'Next.js 15', 'MongoDB', 'Express.js', 'TypeScript', 'JWT', 'Vercel'],
   },
   {
-    period: 'Jul 2024 — Jan 2025',
+    period: 'Mar 2025 — Dec 2025',
+      role: 'Full Stack Development Training & Internship',
+    company: 'JSpiders, Noida',
+    type: 'On-site',
+    points: [
+      'Completed an 10-month intensive Full Stack Development training covering Java, JavaScript, Node.js, Express.js, MongoDB and REST API design.',
+      'Built hands-on projects applying OOP concepts, database design, and end-to-end web application development.',
+    ],
+    stack: ['Java', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'SQL'],
+  },
+  {
+    period: 'Sept 2024 — Feb 2025',
     role: 'Data Engineer Intern',
     company: 'EasyRewardz Software Services Pvt. Ltd.',
     type: 'On-site',
@@ -38,6 +51,9 @@ export const EXPERIENCE = [
     stack: ['Python', 'SQL', 'Pandas', 'Data Analysis'],
   },
 ]
+
+
+
 
 export const PROJECTS = [
   {
@@ -159,7 +175,7 @@ export const CERTS = [
 export const LINKS = {
   email: 'prakharshukla6095@gmail.com',
   phone: '+91 80819 40458',
-  github: 'https://github.com/prakharshukla',
-  linkedin: 'https://linkedin.com/in/prakharshukla',
+  github: 'https://github.com/PrakharShukla8081',
+  linkedin: 'https://linkedin.com/in/prakhar-shukla-7067a222a',
   location: 'Dadri, Uttar Pradesh, India',
 }
