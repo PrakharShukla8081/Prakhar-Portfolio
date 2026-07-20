@@ -56,12 +56,18 @@ export default function Projects() {
                     </div>
                   </div>
                   <div className="flex items-center justify-between border-t border-border/70 bg-background/40 px-6 py-3">
-                    <a href={LINKS.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-[12.5px] text-muted-foreground transition hover:text-foreground">
+                    <a href={p.codeUrl || LINKS.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-[12.5px] text-muted-foreground transition hover:text-foreground">
                       <Github className="size-3.5" /> Code
                     </a>
-                    <a href="#contact" className="inline-flex items-center gap-1.5 text-[12.5px] text-muted-foreground transition hover:text-foreground">
-                      Case study <ExternalLink className="size-3.5" />
-                    </a>
+                    {p.liveUrl ? (
+                      <a href={p.liveUrl} target="_blank" rel="noreferrer" className={`inline-flex items-center gap-1.5 text-[12.5px] transition hover:text-foreground ${a.text}`}>
+                        Live <ExternalLink className="size-3.5" />
+                      </a>
+                    ) : (
+                      <a href="#contact" className="inline-flex items-center gap-1.5 text-[12.5px] text-muted-foreground transition hover:text-foreground">
+                        Case study <ExternalLink className="size-3.5" />
+                      </a>
+                    )}
                   </div>
                 </article>
               </Reveal>

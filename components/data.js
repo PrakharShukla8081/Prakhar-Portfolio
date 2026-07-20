@@ -64,6 +64,8 @@ export const PROJECTS = [
     features: ['ICP matching engine', '100k+ row import pipeline', 'RBAC + JWT auth', 'Audit logging'],
     accent: 'amber',
     status: 'Live',
+    liveUrl: 'https://www.benogroup.in/',
+
   },
   {
     tag: 'Data Engineering · Python',
@@ -73,6 +75,8 @@ export const PROJECTS = [
     features: ['Automated preprocessing', 'Data quality checks', 'Stakeholder reporting', 'Real client data'],
     accent: 'mint',
     status: 'Done',
+    codeUrl: 'https://github.com/PrakharShukla8081/Data-Cleaning-And-Analysis-Project',
+ 
   },
   {
     tag: 'Java · OOP · DSA',
